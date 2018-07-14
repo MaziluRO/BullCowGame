@@ -154,7 +154,7 @@ FBullCowCount FBullCowGame::SubmitValidGuess(FString Guess)
 
 
 
-void FBullCowGame::GenerateHiddenWord(int32 level) 
+void FBullCowGame::GenerateHiddenWord(int32 level) //chooses a random word from the list depending on the level of difficulty chosen.First 3 words are for EASY (1), the other 3 words are for MEDIUM (2) and the rest are for HARD(3).
 {
 	TMap<int32, FString> WordList{ {1,"dog"},{2,"cat"},{3,"pig"},{4,"plane"},{5,"music"},{6,"judge"},{7,"planet"},{8,"jumper"},{9,"zombie"} };
 	switch (level)

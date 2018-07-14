@@ -140,7 +140,7 @@ bool AskToPlayAgain()
 	return ((Response[0] == 'y') || (Response[0] == 'Y'));
 }
 
-int32 ChooseDifficulty()
+int32 ChooseDifficulty() //asks to insert a difficulty level from 1 to 3
 {
 	int32 DifficultyLevel;
 	std::cout << " Choose your difficulty! \n";

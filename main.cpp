@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include "FBullCowGame.h"
-#include <ctype.h>
+
 
 //to make syntax unreal friendly
 using FText = std::string;
